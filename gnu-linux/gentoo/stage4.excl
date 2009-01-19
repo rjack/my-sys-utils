@@ -1,0 +1,26 @@
+# Stage4 excludes for rsync
+#
+# Warning: this will not store ssh keys, /usr/portage and /usr/src
+
+*.mio_stage4
+*.pid
+.bash_history
+
+/shared
+
+# XXX Comment this line if you need to clone your box.
+/etc/ssh/ssh_host_*
+
+/dev/*
+/media/*
+/mnt/*
+/proc/*
+/sys/*
+/tmp/*
+
+/usr/portage/*
+/usr/src/*
+/var/tmp/*
+
+# Ext3 prive'
+lost+found

@@ -1,0 +1,7 @@
+#!/usr/bin/env false
+#
+# Don't run this, use it as reference.
+#
+# install: no
+
+rsync -avH --delete-after --exclude="/boot/*" --exclude-from ~root/stage4.excl / /path/to/root-backup
