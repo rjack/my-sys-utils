@@ -1,0 +1,11 @@
+#!/usr/bin/env false
+#
+# Tail of the system wide bashrc.
+#
+# install: no
+
+export LC_TIME="it_IT.UTF-8"
+export LANG="en_US.UTF-8"
+
+# No bell
+setterm -blength 0

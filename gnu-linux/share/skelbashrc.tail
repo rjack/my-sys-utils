@@ -1,0 +1,9 @@
+#!/usr/bin/env false
+#
+# Tail of the /etc/skel/.bashrc file.
+#
+# install: append to /etc/skel/.bashrc
+
+umask 027
+export MPD_HOST="127.0.0.1"
+export MPD_PORT="6600"
