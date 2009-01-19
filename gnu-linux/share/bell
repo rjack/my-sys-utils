@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#
+# Play the bell.
+#
+# install: /usr/local/bin
+
+setterm -blength 500     # turn the bell on
+echo -e '\a'             # play
+setterm -blength 0       # turn it off again
