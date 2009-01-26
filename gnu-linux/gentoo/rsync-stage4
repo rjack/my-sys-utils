@@ -4,4 +4,4 @@
 #
 # install: no
 
-rsync -avH --delete-after --exclude="/boot/*" --exclude-from ~root/stage4.excl / /path/to/root-backup
+rsync -avH --delete-after --exclude-from stage4.excl / /path/to/root-backup/
